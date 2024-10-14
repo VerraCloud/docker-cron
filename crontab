@@ -2,5 +2,5 @@
 # * * * * * curl https://dolphin-app-mdfe2.ondigitalocean.app/api/alert/sample/ >/proc/1/fd/1 2>/proc/1/fd/2
 #* * * * * curl -X GET "https://dolphin-app-mdfe2.ondigitalocean.app/api/alert/check-compliance/"
 #* * * * * curl -X GET "https://dolphin-app-mdfe2.ondigitalocean.app/api/alert/chlorine-scheduler/"
-#* * * * * curl -X GET "https://demo.eberconnect.com/api/alert/chlorine-scheduler/"
+*/5 * * * * curl -X GET "https://demo.eberconnect.com/api/alert/chlorine-scheduler/"
 # An empty line is required at the end of this file for a valid cron file.
